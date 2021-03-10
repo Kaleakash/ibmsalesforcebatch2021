@@ -1,0 +1,13 @@
+package com;
+
+public class StorePrimitiveInformation {
+
+	public static void main(String[] args) {
+		int id = 100;
+		String name = "Ajay";
+		float salary = 12000;
+		boolean res = true;
+
+	}
+
+}

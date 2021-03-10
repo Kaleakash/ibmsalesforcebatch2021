@@ -1,0 +1,13 @@
+package com;
+
+public class CheckedExceptionDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Hi");
+		
+		Thread.sleep(5000);
+										
+		System.out.println("Take Lunch Break......");
+	}
+
+}

@@ -1,0 +1,23 @@
+package com;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class DemoTest {
+
+	public static void main(String[] args) throws Exception{
+	Employee emp = new Employee();
+	emp.setId(100);
+	emp.setName("Ravi");
+	emp.setSalary(14000);
+	/*
+	System.out.println("id is "+emp.getId());
+	System.out.println("name is "+emp.getName());
+	System.out.println("salary is "+emp.getSalary());*/
+	FileOutputStream fos = new FileOutputStream("emp.ser");
+	ObjectOutputStream oos = new ObjectOutputStream(fos);
+	oos.writeObject(emp);
+	System.out.println("Object serialization done successfully...");
+	}
+
+}

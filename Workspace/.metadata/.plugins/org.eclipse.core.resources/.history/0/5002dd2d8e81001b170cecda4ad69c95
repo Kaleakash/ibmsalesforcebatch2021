@@ -1,0 +1,12 @@
+package com;
+
+import java.io.FileReader;
+
+public class CharWiseFileOperation {
+
+	public static void main(String[] args) throws Exception{
+		FileReader fr = new FileReader("D:\\Training Notes.docx");
+		
+	}
+
+}

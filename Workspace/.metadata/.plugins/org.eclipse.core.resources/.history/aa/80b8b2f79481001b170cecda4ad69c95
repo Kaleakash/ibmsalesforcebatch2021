@@ -1,0 +1,26 @@
+package com;
+
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+
+public class StorePrimitiveInformation {
+
+	public static void main(String[] args) throws Exception{
+		/*int id = 100;
+		String name = "Ajay";
+		float salary = 12000;
+		boolean res = true;
+
+		FileOutputStream fos = new FileOutputStream("emp.txt");
+		DataOutputStream dos = new DataOutputStream(fos);
+		dos.writeInt(id);
+		dos.writeUTF(name);
+		dos.writeFloat(salary);
+		dos.writeBoolean(res);
+		dos.close();
+		fos.close();
+		System.out.println("Employee primtive details in file");*/
+		
+	}
+
+}

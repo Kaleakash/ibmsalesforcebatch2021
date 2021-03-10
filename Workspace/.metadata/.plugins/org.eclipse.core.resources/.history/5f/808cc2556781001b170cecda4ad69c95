@@ -1,0 +1,22 @@
+package com;
+
+
+public class ThrowExample {
+
+	public static void main(String[] args) {
+		int age=17;
+		try {
+		//	int a=10/0;
+		if(age>21) {
+			System.out.println("Your are elgible to vote....");
+		}else {
+			//throw new Exception();  // throw generic 
+			//throw new ArithmeticException();		// throw specific no message 
+			throw new ArithmeticException("age must be > 21");  // throw pre-defined specific with custom message
+		}
+		}catch (Exception e) {
+			System.out.println("Exception generated "+e);
+		}
+	}
+
+}

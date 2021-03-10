@@ -1,0 +1,14 @@
+package com;
+
+public class ThrowsExample {
+	static void dis1() {
+		System.out.println("This is dis1() method");
+	}
+	static void dis2() {
+		System.out.println("This is dis2() method");
+	}
+	public static void main(String[] args) {
+	System.out.println("This is main method");
+	}
+
+}

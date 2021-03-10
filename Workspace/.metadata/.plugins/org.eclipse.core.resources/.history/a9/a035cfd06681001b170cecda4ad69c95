@@ -1,0 +1,18 @@
+package com;
+
+public class ThrowExample {
+
+	public static void main(String[] args) {
+		int age=17;
+		try {
+		if(age>21) {
+			System.out.println("Your are elgible to vote....");
+		}else {
+			throw new Exception();
+		}
+		}catch (Exception e) {
+			System.out.println("Exception generated "+e);
+		}
+	}
+
+}
