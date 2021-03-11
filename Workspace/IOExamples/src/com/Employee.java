@@ -6,6 +6,9 @@ public class Employee implements Serializable {
 private int id;
 private String name;
 private float salary;
+public Employee() {
+	System.out.println("Employee class object created...");
+}
 public int getId() {
 	return id;
 }
