@@ -1,0 +1,8 @@
+p{color:cornflowerblue}
+h1.abc{background-color: blueviolet;font-size: 20px;}
+.backgroundClass{background-color: gainsboro;
+    background-image: url("gmail.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-attachment: fixed;
+}
